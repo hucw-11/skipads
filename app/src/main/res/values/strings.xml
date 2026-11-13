@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">闪跳</string>
+    <string name="subtitle">打开应用时，自动点掉开屏广告的「跳过」</string>
+
+    <string name="service_label">闪跳 · 自动跳过开屏广告</string>
+    <string name="accessibility_service_description">在打开其他应用时，自动点击开屏广告上的“跳过”按钮。本服务不读取、不保存、不上传任何个人数据。</string>
+
+    <string name="section_service">无障碍服务</string>
+    <string name="service_enabled">无障碍服务已开启，正在守护</string>
+    <string name="service_disabled">无障碍服务未开启，暂时无法自动跳过</string>
+    <string name="open_accessibility_settings">无障碍设置</string>
+    <string name="enable_service">去开启无障碍服务</string>
+    <string name="stats_format">今日跳过 %1$d 次 · 累计 %2$d 次</string>
+
+    <string name="section_behavior">运行设置</string>
+    <string name="master_switch">启用自动跳过</string>
+    <string name="master_switch_desc">关闭后不会再点击任何内容</string>
+    <string name="detect_window">启动后检测时长</string>
+    <string name="seconds_format">%1$d 秒</string>
+
+    <string name="section_keywords">跳过按钮关键字</string>
+    <string name="keywords_hint">每行一个关键字，例如：跳过</string>
+    <string name="save_keywords">保存</string>
+    <string name="reset_keywords">恢复默认</string>
+    <string name="keywords_saved">关键字已保存</string>
+    <string name="keywords_reset">已恢复默认关键字</string>
+    <string name="keywords_empty">至少保留一个关键字</string>
+
+    <string name="section_logs">最近跳过记录</string>
+    <string name="logs_empty">暂无记录。打开一个带开屏广告的应用试试。</string>
+    <string name="logs_cleared">记录已清空</string>
+    <string name="clear_logs">清空</string>
+    <string name="log_no_text">（无文本）</string>
+
+    <string name="enable_dialog_title">开启无障碍服务</string>
+    <string name="enable_dialog_message">Android 12 及以上系统中，从浏览器或文件管理器安装的应用，需要先允许「受限制的设置」：
+\n1. 进入「应用信息」（本对话框可直接跳转）
+\n2. 点右上角 ⋮，选择「允许受限制的设置」
+\n3. 再回到「无障碍设置」，找到「闪跳」并开启
+\n\n如果列表里已有「闪跳」，可直接前往无障碍设置开启。</string>
+    <string name="enable_dialog_go_accessibility">无障碍设置</string>
+    <string name="enable_dialog_app_info">应用信息</string>
+    <string name="open_settings_failed">无法打开系统设置，请手动前往设置中开启</string>
+
+    <string name="notice">本应用没有网络权限，所有判断都在本机完成，不收集任何数据。\n\n提示：只能识别带文字说明的「跳过」按钮；纯图片或视频类开屏广告无法识别。部分应用在 Android 12 及以上需先允许「受限制的设置」才能开启无障碍服务。</string>
+</resources>
